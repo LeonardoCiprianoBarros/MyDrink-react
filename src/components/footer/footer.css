@@ -1,0 +1,14 @@
+footer{
+    border-top: 1px solid black;
+}
+
+
+
+
+.fixarRodape {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    border-radius: none;
+}

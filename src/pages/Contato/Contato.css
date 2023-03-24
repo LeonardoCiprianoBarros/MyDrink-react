@@ -1,0 +1,29 @@
+.centralizar{
+    display: grid;
+    place-items: center;
+    
+    margin-top: 120px;
+    width:950px;
+    margin-left: 50px;
+}
+
+.botoes-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes{
+    width: 100px;
+}
+
+
+
+Form {
+   background: none;
+
+   
+}
+
+.label{
+    margin-top: 10px;
+}
