@@ -5,13 +5,13 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../../Styles.css'
 import './navbar.css'
-
+import img from '../img/img.svg'
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="/">My Drink</Navbar.Brand>
+    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container >
+        <Navbar.Brand href="/"><img src={img}></img> My Drink</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -24,9 +24,13 @@ function NavBar() {
                 Outros....
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='btn_nav' href='/Contato'>Contato</Nav.Link>
-            <Nav.Link className='btn_nav' href='/Login'>Sair</Nav.Link>
             
+            <Nav.Link className='btn_nav' href='/Contato'>Contato</Nav.Link>
+          </Nav>
+
+          <Nav>
+            
+            <Nav.Link className='btn_nav btn-sair' href='/Login'>Sair</Nav.Link>
           </Nav>
           
         </Navbar.Collapse>

@@ -10,7 +10,7 @@ import Contato from './pages/Contato/Contato'
 function App() {
   return (
             
-     <Router>
+     <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/Login" element={<Login /> }/>
           <Route path="/Cadastro" element={<Cadastro /> }/>

@@ -1,11 +1,4 @@
-.centralizar{
-    display: grid;
-    place-items: center;
-    
-    margin-top: 120px;
-    width:950px;
-    margin-left: 50px;
-}
+
 
 .botoes-container{
     display: flex;
@@ -18,12 +11,24 @@
 
 
 
-Form {
-   background: none;
+.contato-form {
+    background-color: rgb(224, 224, 238);
+   width: 50%;
+   margin-top: -150px;
 
    
 }
 
 .label{
     margin-top: 10px;
+}
+
+.Contato-container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(248, 245, 245);
+    align-items: center;
+    justify-content: center;
+    
 }

@@ -9,7 +9,8 @@ function TextControlsExample() {
   return (
     <div>
       <NavBar/>
-      <Form>
+    <div className='Contato-container'>
+      <Form className='contato-form '>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Email</Form.Label>
         <Form.Control type="email" placeholder="Digite seu Email para contato" />
@@ -40,8 +41,9 @@ function TextControlsExample() {
       <Button className='botoes' variant="danger">cancelar</Button>{' '}
       </div>
       
-
     </Form>
+    </div>
+    
     <Footer></Footer>
     </div>
   );

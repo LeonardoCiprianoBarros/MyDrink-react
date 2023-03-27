@@ -2,7 +2,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import '../../Styles.css'
 import { Link, useNavigate } from "react-router-dom";
-import "./style.css";
+import "./cadastro.css";
 
 
 

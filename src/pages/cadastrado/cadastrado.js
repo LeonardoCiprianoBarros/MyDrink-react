@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './cadastro.css'
+import './cadastrado.css'
 const cadastrado = () => {
   return (
     <div>
