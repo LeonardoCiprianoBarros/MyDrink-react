@@ -12,7 +12,7 @@ function NavBar() {
   return (
     <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container >
-        <Navbar.Brand href="/"><img src={img} alt="logo"></img> My Drink</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><img src={img} alt="logo"></img> My Drink</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -26,7 +26,7 @@ function NavBar() {
               </NavDropdown.Item>
             </NavDropdown>
             
-            <Nav.Link className='btn_nav' href= '/Contato'>Contato</Nav.Link>
+            <Nav.Link className='btn_nav' as={Link} to='/Contato'>Contato</Nav.Link>
           </Nav>
 
           <Nav>
